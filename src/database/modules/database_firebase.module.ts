@@ -3,7 +3,7 @@ import { Global, Module } from '@nestjs/common';
 import config from '../../config';
 import * as Joi from 'joi';
 import * as admin from 'firebase-admin';
-import { enviroments } from 'enviroments'
+import { enviroments } from '../../../enviroments'
 
 @Global()
 @Module({
