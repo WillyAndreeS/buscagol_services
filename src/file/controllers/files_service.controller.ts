@@ -15,7 +15,7 @@ export class FilesServiceController {
 
   @Get('test')
   async test() {
-    return 'Hi test';
+    return 'Hola prueba';
   }
 
   @Post('testv2')
